@@ -1,0 +1,29 @@
+@media 미디어타입 and (미디어특성) {
+    CSS코드
+}
+
+ex)
+@media screen and (max-width: 1200px) {
+    body {
+        color: red;
+    }
+}
+
+-> 스크린의 최대 크기가 1200px까지 body의 color를 red로
+
+* 미디어타입
+all     모든 미디어 타입에 적용
+screen  컴퓨터 화면, 타블렛, 스마트폰 등
+print   인쇄 전용
+
+* 미디어특성
+width
+max-width   뷰포트 최대 가로 너비(이하)
+min-width   뷰포트 최소 가로 너비(이상)
+
+height      뷰포트 세로 너비
+max-height  뷰포트 최대 세로 너비(이하)
+min-height  뷰포트 최소 세로 너비(이상)
+
+orientation 뷰포트 방향(portrait, landscape)
+기타
